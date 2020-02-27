@@ -23,6 +23,16 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      <style>
+             /* Set the size of the div element that contains the map */
+            .map {
+              height: 500px;  /* The height is 400 pixels */
+              width: 100%;  /* The width is the width of the web page */
+             }
+          </style>
+    </style>
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
@@ -330,6 +340,26 @@
         </div>
       </div>
     </div>
+    <section class="site-section bg-light map" id="map">
+      <div class="container">
+        <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = {lat: -25.344, lng: 131.036};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 4, center: uluru});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+        </script>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy-Jd_5NXvpm_0v--UQHPsdjKoRynlc7w&callback=initMap">
+            </script>
+      </div>
+      </div>
+    </section>
     
      <!-- Footer -->
     <footer class="site-footer">
