@@ -33,9 +33,19 @@
              }
           </style>
     </style> -->
+    <style>
+      #copy{
+       -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none; 
+      }
+    </style>
     
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
+  <body id="copy" data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
   
 
   <div id="overlayer"></div>
@@ -145,9 +155,7 @@
 
                 Team work: Unity is always powerful, we have different levels of thinking and talents by combining them all, we are able to come out with solution to any problem.</p>
               </div>
-
           </div>
-
           <div class="col-md-5 ml-auto">
             <h2 class="text-black mb-4 h6"><strong>OUR MISSION</strong></h2>
             <P>Dedicated and Commited to be the leading Tanzanian company in providing debt management services.</P>
@@ -420,12 +428,33 @@
               </div>
               <div class="form-group row">
                 <div class="col-md-6 mr-auto">
-                  <input type="submit" class="btn btn-block btn-primary text-white py-2 px-5" value="Send Message">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Send Message
+                  </button>
                 </div>
               </div>
             </form>
+          </div>        
+        </div>
+      </div>
+    </div>
+    <!-- Modal Popup contact Form -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Thanks for Contacting us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          
+         <!--  <div class="modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
         </div>
       </div>
     </div>
