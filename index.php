@@ -98,7 +98,7 @@
             <div class="row">
               <div class="col-lg-11">
                 <h1>We <span class="typed-words"></span></h1>
-                <p>Mudu Company Limited is liimited liability Company with registration number 140-710-059. We do debt collection, auction and real estate.<a style="color: #2c6092;" href="#contact-section">Contact us</a></p>
+                <p>Mudu Company Limited is limited liability Company with registration number 140710059. We do debt collection, auction and real estate.<a style="color: #2c6092;" href="#contact-section">Contact us</a></p>
               </div>     
             </div>
           </div>       
@@ -131,11 +131,13 @@
             <p><strong>Our Values</strong></p>
               <div>
                 <p>
-                Client centricity: Our esteem clients stand as an important pillar for survival of our business therefore we give them first priority in anything that we do in our company.
+                1.Client centricity. Our esteemed clients stand as an important pillar for survival of our business, we give
+                them first priority in anything that we do in our company.
                 </p>
 
                 <p>
-                Integrity: As ambitious company we care much about our brand and therefore    whatever we do we ensure we comply well in all angle of integrity by being honest, sincere, fair and transparent. 
+               Integrity: our team is well built up by people who are honest, sincere, fair and transparent, As
+               ambitious team we care much about our brand.
                 </p>
 
                 <p>
@@ -144,7 +146,8 @@
 
                 <p>
 
-                Excellency: we highly observe quality in our services and we trust high standards are way of life and therefore we cannot hesitate to provide to our esteem clients.
+                Excellency: we highy observe quality in our services and we trust high standards are the way of life, we
+                can not hesitate to provide the best to our clients.
 
                 </p>
 
@@ -245,7 +248,7 @@
           <div class="col-lg-3 text-left">
             <img src="images/team_11.jpg" alt="Free Website Template by Free-Template.co" class="rounded-circle img-fluid w-50 mb-4">
             <h3 class="h4 text-black">MR. CLAUD MASHAKA</h3>DEBT COLLECTION OFFICER
-            <p>Bachelor Degree in human resource (Mwalimu Nyerere university). Worked with Topher Micro credit for one year as credit and recoveries officer, Also worked with Yosex property limited as marketing officer</p>
+            <p>Bachelor Degree in human resource (Mwalimu Nyerere university). Worked with Topher Micro credit for one year as credit and recoveries officer.</p>
           </div>1
         </div>
       </div>
@@ -372,7 +375,7 @@
                 <img src="images/1.png" alt="Mudu" class="img-fluid">
               </div>
               <div class="col-md-6">
-                <img src="images/2.png" alt="Mudu" class="img-fluid">
+                <img src="images/3.png" alt="Mudu" class="img-fluid">
               </div>
             </div>
           </div>
